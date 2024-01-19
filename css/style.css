@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8D8;
+    padding-bottom: 50px;
+}
+
+header {
+    background-image: url(../imagens/banner-header.svg);
+    width: 100%;
+    height: 330px;
+}
+
+.Apresentacao {
+    background-color: #d1bf1bb8;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Apresentacao p {
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 3px;
+    font-family: 'krub';
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 40px;
+    font-family: 'kreon';
+    font-weight: 600;
+}
+
+.title .img-esquerda {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: -83px;
+    margin-top: -5px;
+}
+
+.title .img-direita {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    rotate: 180deg;
+    margin-left: 55px;
+    margin-top: -25px;
+}
+
+.logos-servicos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: 'JetBrains Mono';
+    color: #888;
+}
+
+.logos-servicos img {
+    width: 120px;
+    height: 120px;
+}
+
+.description {
+    margin-top: 150px;
+    font-family: 'krub';
+    color: white;
+    letter-spacing: 2px;
+}
+
+.description p {
+    margin-left: 20px;
+}
+
+.description .description-eletrica {
+    background-color: #d1bf1bb8;
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.description .description-pintor {
+    background-color: #d1bf1bb8;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: right;
+    margin-top: 50px;
+}
+
+.description .description-encanador{
+    background-color: #d1bf1bb8;
+    width: 60%;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 280px;
+}
+
+.description .description-reforma {
+    background-color: #d1bf1bb8;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: right;
+    margin-top: 50px;
+}
